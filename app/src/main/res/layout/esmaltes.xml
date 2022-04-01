@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:layout_width="400dp"
+                    android:layout_height="1000dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            app:srcCompat="@drawable/aguabrillo" />
+
+                        <LinearLayout
+                            android:layout_width="276dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView38"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Esmalte al Agua Brillante Blanco" />
+
+                            <TextView
+                                android:id="@+id/textView39"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="0.75lt : 10€" />
+
+                            <TextView
+                                android:id="@+id/textView40"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="4lt = 60€" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/fichaEsmalteAguaBrillo"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:srcCompat="@android:drawable/ic_dialog_info" />
+
+                                <ImageButton
+                                    android:id="@+id/btnCarriEsmAguaBrill075"
+                                    android:layout_width="54dp"
+                                    android:layout_height="49dp"
+                                    android:scaleType="centerInside"
+                                    app:srcCompat="@drawable/carrito075"/>
+
+                                <ImageButton
+                                    android:id="@+id/btnCarriEsmAguaBrill04"
+                                    android:layout_width="54dp"
+                                    android:layout_height="49dp"
+                                    android:scaleType="centerInside"
+                                    app:srcCompat="@drawable/carrito4"/>
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            app:srcCompat="@drawable/aguasatin075" />
+
+                        <LinearLayout
+                            android:layout_width="276dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView41"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Esmalte al Agua Satinado Blanco" />
+
+                            <TextView
+                                android:id="@+id/textView42"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="0.75lt : 11€" />
+
+                            <TextView
+                                android:id="@+id/textView43"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="4lt = 64€" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/fichaEsmalteAguaSatin"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:srcCompat="@android:drawable/ic_dialog_info" />
+
+                                <ImageButton
+                                    android:id="@+id/btnCarriEsmAguaSati075"
+                                    android:layout_width="54dp"
+                                    android:layout_height="49dp"
+                                    android:scaleType="centerInside"
+                                    app:srcCompat="@drawable/carrito075"/>
+
+                                <ImageButton
+                                    android:id="@+id/btnCarriEsmAguaSati04"
+                                    android:layout_width="54dp"
+                                    android:layout_height="49dp"
+                                    android:scaleType="centerInside"
+                                    app:srcCompat="@drawable/carrito4"/>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            app:srcCompat="@drawable/aguamate075" />
+
+                        <LinearLayout
+                            android:layout_width="276dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView34"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Esmalte al Agua Mate Blanco" />
+
+                            <TextView
+                                android:id="@+id/textView35"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="0.75lt : 12€" />
+
+                            <TextView
+                                android:id="@+id/textView36"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="4lt = 68€" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/fichaEsmalteAguaMate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:srcCompat="@android:drawable/ic_dialog_info" />
+
+                                <ImageButton
+                                    android:id="@+id/btnCarriEsmDisolMat075"
+                                    android:layout_width="54dp"
+                                    android:layout_height="49dp"
+                                    android:scaleType="centerInside"
+                                    app:srcCompat="@drawable/carrito075"/>
+
+                                <ImageButton
+                                    android:id="@+id/btnCarriEsmDisolMat04"
+                                    android:layout_width="54dp"
+                                    android:layout_height="49dp"
+                                    android:scaleType="centerInside"
+                                    app:srcCompat="@drawable/carrito4"/>
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/esmaltediso"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            app:srcCompat="@drawable/esmaltedisolbrillo" />
+
+                        <LinearLayout
+                            android:layout_width="276dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView52"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Esmalte al Disolvente Brillante Blanco" />
+
+                            <TextView
+                                android:id="@+id/textView44"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="0.75lt : 8€" />
+
+                            <TextView
+                                android:id="@+id/textView45"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="4lt = 48€" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/fichaEsmalteDisol"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:srcCompat="@android:drawable/ic_dialog_info" />
+
+                                <ImageButton
+                                    android:id="@+id/btnCarriEsmDisolMat07"
+                                    android:layout_width="54dp"
+                                    android:layout_height="49dp"
+                                    android:scaleType="centerInside"
+                                    app:srcCompat="@drawable/carrito075"/>
+
+                                <ImageButton
+                                    android:id="@+id/btnCarriEsmDisolMat0"
+                                    android:layout_width="54dp"
+                                    android:layout_height="49dp"
+                                    android:scaleType="centerInside"
+                                    app:srcCompat="@drawable/carrito4"/>
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            app:srcCompat="@drawable/esmaltedisolsatin" />
+
+                        <LinearLayout
+                            android:layout_width="276dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView46"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Esmalte al Disolvente Satinado Blanco" />
+
+                            <TextView
+                                android:id="@+id/textView47"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="0.75lt : 9€" />
+
+                            <TextView
+                                android:id="@+id/textView48"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="4lt = 50€" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/fichaEsmalteDisolMat"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:srcCompat="@android:drawable/ic_dialog_info" />
+
+                                <ImageButton
+                                    android:id="@+id/btnCarriEsmDisolMat"
+                                    android:layout_width="54dp"
+                                    android:layout_height="49dp"
+                                    android:scaleType="centerInside"
+                                    app:srcCompat="@drawable/carrito075"/>
+
+                                <ImageButton
+                                    android:id="@+id/btnCarriEsmDisolM"
+                                    android:layout_width="54dp"
+                                    android:layout_height="49dp"
+                                    android:scaleType="centerInside"
+                                    app:srcCompat="@drawable/carrito4"/>
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            app:srcCompat="@drawable/esmaltedisolmate" />
+
+                        <LinearLayout
+                            android:layout_width="276dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView49"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Esmalte al Disolvente Mate Blanco" />
+
+                            <TextView
+                                android:id="@+id/textView50"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="0.75lt : 10€" />
+
+                            <TextView
+                                android:id="@+id/textView51"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="4lt = 54€" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/fichaEsmalteDiso"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:srcCompat="@android:drawable/ic_dialog_info" />
+
+                                <ImageButton
+                                    android:id="@+id/btnCarriEsmDis"
+                                    android:layout_width="54dp"
+                                    android:layout_height="49dp"
+                                    android:scaleType="centerInside"
+                                    app:srcCompat="@drawable/carrito075"/>
+
+                                <ImageButton
+                                    android:id="@+id/btnCarriEsmDi"
+                                    android:layout_width="54dp"
+                                    android:layout_height="49dp"
+                                    android:scaleType="centerInside"
+                                    app:srcCompat="@drawable/carrito4"/>
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
